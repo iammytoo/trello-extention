@@ -1,0 +1,12 @@
+{
+    "name": "trello task card extention",
+        "version": "1",
+        "manifest_version": 3,
+        "description": "make trello task cards larger",
+        "content_scripts": [
+        {
+            "matches": ["http://trello.com/*","https://trello.com/*"],
+            "js": ["trello_card_extention.user.js"]
+        }
+    ] 
+}
